@@ -1,7 +1,7 @@
 # Karttapullautin GUI
 
 <p align="center">
-  <a href="https://github.com/wdickin/karttapullautin-gui-releases/releases/latest"><img alt="Download for Windows: installer (.exe)" src="https://img.shields.io/badge/Download%20for%20Windows-Installer%20(.exe)-0078D6?style=for-the-badge&logo=windows&logoColor=white" height="44"></a>
+  <a href="https://github.com/wdickin/karttapullautin-gui-releases/releases/download/v1.3.1/KarttapullautinGUI-v1.3.1-Setup-x64.exe"><img alt="Download for Windows: installer (.exe)" src="https://img.shields.io/badge/Download%20for%20Windows-Installer%20(.exe)-0078D6?style=for-the-badge&logo=windows&logoColor=white" height="44"></a>
 </p>
 <p align="center">
   <a href="https://github.com/wdickin/karttapullautin-gui-releases/releases/latest"><img alt="Windows portable (.zip)" src="https://img.shields.io/badge/Windows-portable%20.zip-0078D6?logo=windows&logoColor=white"></a>
