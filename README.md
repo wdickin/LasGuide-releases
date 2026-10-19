@@ -16,11 +16,19 @@ This repository only hosts the ready-to-run downloads. Get them from the [Releas
 
 ## What it does
 
-- **Find LiDAR:** draw your area on the map and the app lists the USGS LiDAR that covers it. Where Amazon has a copy (⚡), it downloads only your area, fast.
-- **Crop:** draw a box or a polygon. Only the points inside are used, and the map is blank outside your area and your data.
+![The main window: file list and settings on the left, a live map of the LiDAR tiles on the right](docs/main_window.png)
+
+- **Find LiDAR:** draw your area on the map and the app lists the LiDAR that covers it: USGS in the US, NRCan in Canada and LidarBC in British Columbia. Where it can (⚡), it downloads only your area, fast.
+- **Crop:** draw a box or a polygon, even before adding files, or use a park's outline plus a buffer. Only the points inside are used, and the map is blank outside your area and your data.
+- **Map type:** Forest 1:10000, Forest 1:7500 or Sprint 1:4000 (ISOM / ISSprOM).
+- **Lakes and ponds** are found in the LiDAR and shown in blue, with no contours on water.
+- **Old LiDAR** with no ground points marked still makes a map: the app marks the ground itself.
 - **Files with no location:** type the place name once, and the app finds the coordinate system that puts the files there.
 - **Map:** reprojects to UTM meters, merges tiles, makes a hillshade and runs pullauta. You can watch the result on the built-in map.
-- **Several projects:** one window per project (New window, Ctrl+N).
+- **Several projects:** one window per project (New window, Ctrl+N), listed under **Windows ▾**. **New project** starts over after asking.
+- **Light or dark:** **Theme ▾** on the toolbar.
+
+![The finder in dark mode: Download at the top](docs/finder_dark.jpg)
 
 ## First launch
 
@@ -38,6 +46,14 @@ Karttapullautin GUI is a free hobby project. Apple charges $99 a year and Window
 - **Mac:** the first time, right-click the app, choose **Open**, then **Open** again. On newer macOS, go to System Settings › Privacy & Security and click **Open Anyway**.
 - **Windows:** if SmartScreen appears, click **More info**, then **Run anyway**.
 
-## Credits
+## Feedback
 
-Thanks to **Jeff Teutsch** for his expert guidance and for helping shape the vision for this app.
+In the app, **Feedback ▾ → Report a bug** or **Suggest a feature**, or use the [forms here](../../issues/new/choose). You need a free GitHub account.
+
+## License
+
+Free for personal, club, school and other non-commercial use under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/). For commercial use, send a [Commercial use request](../../issues/new?template=commercial_use.yml).
+
+pullauta (Karttapullautin) is a separate program under the GPL-3.0 ([source](https://github.com/karttapullautin/karttapullautin)).
+
+More help is in the [wiki](../../wiki).
