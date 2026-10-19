@@ -1,0 +1,21 @@
+name: Commercial use request
+description: Ask permission to use Karttapullautin GUI for paid or commercial work
+title: "[Commercial] "
+labels: ["commercial"]
+body:
+  - type: markdown
+    attributes:
+      value: The app is free for personal, club, school and other non-commercial use. For commercial use, tell us a little about it and we'll get back to you here. This page is public, so don't post private details.
+  - type: input
+    id: org
+    attributes:
+      label: Company or organisation
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: How you'd use it
+      description: For example, paid mapping jobs, event services or training.
+    validations:
+      required: true
