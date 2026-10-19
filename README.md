@@ -6,6 +6,8 @@ This version is built for the Americas (US, Canada, Latin America): LiDAR search
 
 This repository only hosts the ready-to-run downloads. Get them from the [Releases](../../releases/latest) page.
 
+**Current version: [v1.3.3](../../releases/tag/v1.3.3)** (released 2026-10-19).
+
 | Your computer | Download |
 |---|---|
 | Windows 10/11 (64-bit), installer (recommended) | `KarttapullautinGUI-<version>-Setup-x64.exe` |
