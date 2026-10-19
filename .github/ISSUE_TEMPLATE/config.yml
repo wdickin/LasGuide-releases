@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Commercial use or licensing
-    url: mailto:will@wildterrainnav.com
-    about: The app is free for non-commercial use. Email Will for commercial permission.
+    url: https://github.com/wdickin/karttapullautin-gui-releases#readme
+    about: Free for non-commercial use. For commercial permission, email will@wildterrainnav.com
