@@ -1,12 +1,12 @@
 # LasGuide – downloads
 
-LasGuide is a free desktop app for Karttapullautin (pullauta), the tool that turns LiDAR point clouds into orienteering maps. Find free USGS LiDAR for your area or add your own `.laz`/`.las` files, crop to the area you want, press Start, and the app prepares the data, runs pullauta and shows you the map.
+LasGuide is a free desktop app for Karttapullautin (pullauta), the tool that turns LiDAR point clouds into orienteering maps. Find free LiDAR for your area (US and Canada) or add your own `.laz`/`.las` files, crop to the area you want, press Start, and the app prepares the data, runs pullauta and saves a map you can open in OpenOrienteering Mapper.
 
 This version is built for the Americas (US, Canada, Latin America): LiDAR search, coordinate systems and defaults. A future version will work worldwide, including Europe, Russia, Japan, Australia and New Zealand.
 
 This repository only hosts the ready-to-run downloads. Get them from the [Releases](../../releases/latest) page.
 
-**Current version: [v1.3.5](../../releases/tag/v1.3.5)** (released 2026-10-26). v1.3.5 is Windows only; Mac and Linux stay on 1.3.3 for now.
+**Current version: [v1.3.6](../../releases/tag/v1.3.6)** (released 2026-10-26). v1.3.6 is Windows only; Mac and Linux stay on 1.3.3 for now.
 
 | Your computer | Download |
 |---|---|
@@ -27,6 +27,9 @@ This repository only hosts the ready-to-run downloads. Get them from the [Releas
 - **Old LiDAR** with no ground points marked still makes a map: the app marks the ground itself.
 - **Files with no location:** type the place name once, and the app finds the coordinate system that puts the files there.
 - **Map:** reprojects to UTM meters, merges tiles, makes a hillshade and runs pullauta. You can watch the result on the built-in map.
+- **Big areas:** files bigger than 2.5 km on a side are split into blocks of about 2 × 2 km, mapped side by side and merged back into one map (`OUT/merged/`). A 10 × 10 km area took about 8 minutes on our 8-core test computer.
+- **OpenOrienteering Mapper:** every run saves a georeferenced `.omap` on ISOM / ISSprOM symbols. **Help › Check file origin…** tells you whether an `.omap` was made by LasGuide and edited since.
+- **Updates:** at start, LasGuide tells you when a newer version is out. **Help › Check data sources…** shows which LiDAR download services your computer can reach.
 - **Several projects:** one window per project (New window, Ctrl+N), listed under **Windows ▾**. **New project** starts over after asking.
 - **Light or dark:** **Theme ▾** on the toolbar.
 
@@ -50,11 +53,11 @@ LasGuide is a free hobby project. Apple charges $99 a year and Windows code-sign
 
 ## Feedback
 
-In the app, **Feedback ▾ → Report a bug** or **Suggest a feature**, or use the [forms here](../../issues/new/choose). You need a free GitHub account.
+In the app, **Help › Report a problem…** opens the bug form with the app version, Windows and the last step and last error filled in (file names, names and coordinates are taken out, and you see the form before anything is sent). **Feedback ▾ → Suggest a feature** opens the idea form. Or use the [forms here](../../issues/new/choose). You need a free GitHub account.
 
 ## License
 
-Free for personal, club, school and other non-commercial use under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/). For commercial use, send a [Commercial use request](../../issues/new?template=commercial_use.yml).
+Free for personal, club, school and other non-commercial use under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0). For commercial use, send a [Commercial use request](../../issues/new?template=commercial_use.yml).
 
 pullauta (Karttapullautin) is a separate program under the GPL-3.0 ([source](https://github.com/karttapullautin/karttapullautin)).
 
