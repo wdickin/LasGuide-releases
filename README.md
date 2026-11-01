@@ -6,7 +6,7 @@ This version is built for the Americas (US, Canada, Latin America): LiDAR search
 
 This repository only hosts the ready-to-run downloads. Get them from the [Releases](../../releases/latest) page.
 
-**Current version: [v1.3.8](../../releases/tag/v1.3.8)** (released 2026-11-01). v1.3.8 is Windows only; Mac and Linux stay on 1.3.3 for now.
+**Current version: [v1.3.9](../../releases/tag/v1.3.9)** (released 2026-11-01). v1.3.9 is Windows only; Mac and Linux stay on 1.3.3 for now.
 
 | Your computer | Download |
 |---|---|
@@ -24,13 +24,13 @@ This repository only hosts the ready-to-run downloads. Get them from the [Releas
 - **Crop:** draw a box or a polygon, even before adding files, or use a park's outline plus a buffer. Only the points inside are used, and the map is blank outside your area and your data.
 - **Map type:** Forest 1:10000, Forest 1:7500 or Sprint 1:4000 (ISOM / ISSprOM).
 - **Lakes and ponds** are found in the LiDAR and shown in blue, with no contours on water.
-- **Old LiDAR** with no ground points marked still makes a map: the app marks the ground itself.
+- **Old LiDAR** with no ground points marked still makes a map: the app asks first, then marks the ground itself.
 - **Files with no location:** type the place name once, and the app finds the coordinate system that puts the files there.
 - **Map:** reprojects to UTM meters, merges tiles, makes a hillshade and runs pullauta. You can watch the result on the built-in map.
 - **Big areas:** files bigger than 2.5 km on a side are split into blocks of about 2 × 2 km, mapped side by side and merged back into one map (`OUT/merged/`). A 10 × 10 km area took about 8 minutes on our 8-core test computer.
-- **OpenOrienteering Mapper:** every run saves a georeferenced `.omap` on ISOM / ISSprOM symbols. **Help › Check file origin…** tells you whether an `.omap` was made by LasGuide and edited since.
-- **Updates:** at start, LasGuide tells you when a newer version is out. **Help › Check data sources…** shows which LiDAR download services your computer can reach.
-- **Several projects:** one window per project (**View › New window**, Ctrl+N), listed under **View › Windows**. **Project › New project…** starts over after asking.
+- **OpenOrienteering Mapper:** every run saves a georeferenced `.omap` on ISOM / ISSprOM symbols. **Add LiDAR › Check file origin…** tells you whether an `.omap` was made by LasGuide and edited since.
+- **Updates:** at start, LasGuide tells you when a newer version is out. **Add LiDAR › Check data sources…** shows which LiDAR download services your computer can reach.
+- **Several projects:** one window per project (**Project › New window**, Ctrl+N), listed under **Project › Windows**. **Project › New project…** starts over after asking.
 - **Light or dark:** **View › Theme**.
 
 ![The finder in dark mode: Download at the top](docs/finder_dark.jpg)
