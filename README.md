@@ -6,7 +6,9 @@ This version is built for the Americas (US, Canada, Latin America): LiDAR search
 
 This repository only hosts the ready-to-run downloads. Get them from the [Releases](../../releases/latest) page.
 
-**Current version: [v1.3.9](../../releases/tag/v1.3.9)** (released 2026-11-01). v1.3.9 is Windows only; Mac and Linux stay on 1.3.3 for now.
+**Current version: [v1.4.0](../../releases/tag/v1.4.0)** (released 2026-11-02). v1.4.0 is Windows only; Mac and Linux stay on 1.3.3 for now.
+
+**What's new in 1.4.0:** a new OpenStreetMap step and Project › Work offline; each run saves into one dated folder (`LasGuide YYYY-MM-DD HHMM`); templates now open at the right size in OpenOrienteering Mapper; a Field check notes template for your field notes; and the .omap no longer contains your folder path. Full list in the [release notes](../../releases/tag/v1.4.0).
 
 | Your computer | Download |
 |---|---|
