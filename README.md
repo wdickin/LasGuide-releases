@@ -6,9 +6,9 @@ This version is built for the Americas (US, Canada, Latin America): LiDAR search
 
 This repository only hosts the ready-to-run downloads. Get them from the [Releases](../../releases/latest) page.
 
-**Current version: [v1.4.0](../../releases/tag/v1.4.0)** (released 2026-11-02). v1.4.0 is Windows only; Mac and Linux stay on 1.3.3 for now.
+**Current version: [v1.4.1](../../releases/tag/v1.4.1)** (released 2026-11-03). v1.4.1 is Windows only; Mac and Linux stay on 1.3.3 for now.
 
-**What's new in 1.4.0:** a new OpenStreetMap step and Project › Work offline; each run saves into one dated folder (`LasGuide YYYY-MM-DD HHMM`); templates now open at the right size in OpenOrienteering Mapper; a Field check notes template for your field notes; and the .omap no longer contains your folder path. Full list in the [release notes](../../releases/tag/v1.4.0).
+**What's new in 1.4.1:** a run no longer goes online for OpenStreetMap (it uses the file the ② OSM layers step downloaded, and checks the connection first); an Accuracy checks PASS/FAIL line with details in the Finished window; Update now downloads and runs the new installer on Windows; and one step bar at the top: ① Select area › ② OSM layers › ③ Start › ④ .omap. Full list in the [release notes](../../releases/tag/v1.4.1).
 
 | Your computer | Download |
 |---|---|
@@ -31,7 +31,7 @@ This repository only hosts the ready-to-run downloads. Get them from the [Releas
 - **Map:** reprojects to UTM meters, merges tiles, makes a hillshade and runs pullauta. You can watch the result on the built-in map.
 - **Big areas:** files bigger than 2.5 km on a side are split into blocks of about 2 × 2 km, mapped side by side and merged back into one map (`OUT/merged/`). A 10 × 10 km area took about 8 minutes on our 8-core test computer.
 - **OpenOrienteering Mapper:** every run saves a georeferenced `.omap` on ISOM / ISSprOM symbols. **Add LiDAR › Check file origin…** tells you whether an `.omap` was made by LasGuide and edited since.
-- **Updates:** at start, LasGuide tells you when a newer version is out. **Add LiDAR › Check data sources…** shows which LiDAR download services your computer can reach.
+- **Updates:** at start, LasGuide tells you when a newer version is out. On Windows, **Update now** downloads and runs the new installer (checked against SHA256SUMS.txt); if anything goes wrong it opens the download page. **Add LiDAR › Check data sources…** shows which LiDAR download services your computer can reach.
 - **Several projects:** one window per project (**Project › New window**, Ctrl+N), listed under **Project › Windows**. **Project › New project…** starts over after asking.
 - **Light or dark:** **View › Theme**.
 
