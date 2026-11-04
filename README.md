@@ -6,9 +6,9 @@ This version is built for the Americas (US, Canada, Latin America): LiDAR search
 
 This repository only hosts the ready-to-run downloads. Get them from the [Releases](../../releases/latest) page.
 
-**Current version: [v1.4.3](../../releases/tag/v1.4.3)** (released 2026-11-04). v1.4.3 is Windows only; Mac and Linux stay on 1.3.3 for now.
+**Current version: [v1.4.4](../../releases/tag/v1.4.4)** (released 2026-11-04). v1.4.4 is Windows only; Mac and Linux stay on 1.3.3 for now.
 
-**What's new in 1.4.3:** the Project, Add LiDAR and Help menus follow Simple and Advanced (Simple shows only the everyday entries), and **Add LiDAR › Find a park…** finds about 21,000 US state and local parks by name, offline, and uses the park outline as the Find LiDAR area. Full list in the [release notes](../../releases/tag/v1.4.3).
+**What's new in 1.4.4:** **Add LiDAR › Find a park…** also lists US national forests, and shows [Livelox](https://www.livelox.com/) orienteering events in or near the park you pick (newest first; double-click to open on livelox.com; orienteering events: Livelox, livelox.com). The **How to start?** card has a × close button (Esc works too). Full list in the [release notes](../../releases/tag/v1.4.4).
 
 | Your computer | Download |
 |---|---|
