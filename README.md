@@ -6,9 +6,9 @@ This version is built for the Americas (US, Canada, Latin America): LiDAR search
 
 This repository only hosts the ready-to-run downloads. Get them from the [Releases](../../releases/latest) page.
 
-**Current version: [v1.4.2](../../releases/tag/v1.4.2)** (released 2026-11-04). v1.4.2 is Windows only; Mac and Linux stay on 1.3.3 for now.
+**Current version: [v1.4.3](../../releases/tag/v1.4.3)** (released 2026-11-04). v1.4.3 is Windows only; Mac and Linux stay on 1.3.3 for now.
 
-**What's new in 1.4.2:** Project › Save project… (Ctrl+S) and Open project… (Ctrl+O) save and reopen your setup as a small .lgd file (never with passwords or keys); the selected area is now red and the crop outline dashed blue, and a crop shape that crosses itself is shown as a thick black line with a yellow edge; and small symbols on the steps. Full list in the [release notes](../../releases/tag/v1.4.2).
+**What's new in 1.4.3:** the Project, Add LiDAR and Help menus follow Simple and Advanced (Simple shows only the everyday entries), and **Add LiDAR › Find a park…** finds about 21,000 US state and local parks by name, offline, and uses the park outline as the Find LiDAR area. Full list in the [release notes](../../releases/tag/v1.4.3).
 
 | Your computer | Download |
 |---|---|
