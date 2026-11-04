@@ -6,9 +6,9 @@ This version is built for the Americas (US, Canada, Latin America): LiDAR search
 
 This repository only hosts the ready-to-run downloads. Get them from the [Releases](../../releases/latest) page.
 
-**Current version: [v1.4.1](../../releases/tag/v1.4.1)** (released 2026-11-03). v1.4.1 is Windows only; Mac and Linux stay on 1.3.3 for now.
+**Current version: [v1.4.2](../../releases/tag/v1.4.2)** (released 2026-11-04). v1.4.2 is Windows only; Mac and Linux stay on 1.3.3 for now.
 
-**What's new in 1.4.1:** a run no longer goes online for OpenStreetMap (it uses the file the ② OSM layers step downloaded, and checks the connection first); an Accuracy checks PASS/FAIL line with details in the Finished window; Update now downloads and runs the new installer on Windows; and one step bar at the top: ① Select area › ② OSM layers › ③ Start › ④ .omap. Full list in the [release notes](../../releases/tag/v1.4.1).
+**What's new in 1.4.2:** Project › Save project… (Ctrl+S) and Open project… (Ctrl+O) save and reopen your setup as a small .lgd file (never with passwords or keys); the selected area is now red and the crop outline dashed blue, and a crop shape that crosses itself is shown as a thick black line with a yellow edge; and small symbols on the steps. Full list in the [release notes](../../releases/tag/v1.4.2).
 
 | Your computer | Download |
 |---|---|
