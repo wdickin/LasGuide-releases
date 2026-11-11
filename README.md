@@ -1,20 +1,26 @@
 # LasGuide – downloads
 
+## Download
+
+- **Windows installer:** [LasGuide-Setup-x64.exe](https://github.com/wdickin/LasGuide-releases/releases/latest/download/LasGuide-Setup-x64.exe)
+- **Windows zip:** [LasGuide-windows-x64.zip](https://github.com/wdickin/LasGuide-releases/releases/latest/download/LasGuide-windows-x64.zip)
+- **Mac and Linux:** currently on 1.4.7. Get `LasGuide-macos-arm64.dmg` (Apple Silicon), `LasGuide-macos-x86_64.dmg` (Intel), or `LasGuide-v1.4.7-linux-x86_64` from the [v1.4.7 release](https://github.com/wdickin/LasGuide-releases/releases/tag/v1.4.7).
+
 LasGuide is a free desktop app for Karttapullautin (pullauta), the tool that turns LiDAR point clouds into orienteering maps. Find free LiDAR for your area (United States, Canada, Finland and Sweden) or add your own `.laz`/`.las` files, crop to the area you want, press Start, and the app prepares the data, runs pullauta and saves a map you can open in OpenOrienteering Mapper.
 
 This repository only hosts the ready-to-run downloads. Get them from the [Releases](../../releases/latest) page.
 
-**Current version: [v1.4.7](../../releases/tag/v1.4.7)** (released 2026-11-09). Windows is on 1.4.7; Mac and Linux builds are on [v1.4.5](../../releases/tag/v1.4.5).
+**Current version: [v1.4.9](../../releases/tag/v1.4.9)** (released 2026-11-11). Windows is on 1.4.9; Mac and Linux builds are on [v1.4.7](../../releases/tag/v1.4.7).
 
-**What's new in 1.4.7:** Work offline skips the height check and OpenStreetMap layer cleanly (retry when you are back online); **Files › Download European LiDAR…** for Finland and Sweden; a quiet **SUPPORT LASGUIDE** button with an optional $5 PayPal coffee; About fits small screens and says what this version covers; Find LiDAR (with Find park) under **View**; better run-time estimates. Full list in the [release notes](../../releases/tag/v1.4.7).
+**What's new in 1.4.9:** On Windows, **Generate DEM** writes a GeoTIFF DTM and hillshade; **Build map file** also writes an OCAD 12 `.ocd` next to the `.omap`, with the title block and legend as real objects; large areas keep a clean joined elevation grid; update checks run at every start; **Open logs folder** sits beside Open results; Support LasGuide opens a PayPal Donate page, with a once-per-version prompt you can turn off. Mac and Linux stay on 1.4.7. Full list in the [release notes](../../releases/tag/v1.4.9).
 
 | Your computer | Download |
 |---|---|
-| Windows 10/11 (64-bit), installer (recommended) | [`LasGuide-Setup-x64.exe`](https://github.com/wdickin/LasGuide-releases/releases/latest/download/LasGuide-Setup-x64.exe) (versioned: `LasGuide-v1.4.7-Setup-x64.exe`) |
-| Windows 10/11 (64-bit), portable (no install) | [`LasGuide-windows-x64.zip`](https://github.com/wdickin/LasGuide-releases/releases/latest/download/LasGuide-windows-x64.zip) (versioned: `LasGuide-v1.4.7-windows-x64.zip`) |
-| Mac with Apple Silicon (M1, M2, M3, M4…) – 1.4.5 | [`LasGuide-macos-arm64.dmg`](https://github.com/wdickin/LasGuide-releases/releases/download/v1.4.5/LasGuide-macos-arm64.dmg) |
-| Mac with an Intel processor – 1.4.5 | [`LasGuide-macos-x86_64.dmg`](https://github.com/wdickin/LasGuide-releases/releases/download/v1.4.5/LasGuide-macos-x86_64.dmg) |
-| Linux x86_64 (Ubuntu 22.04+ / Debian 12+) – 1.4.5 | [`LasGuide-v1.4.5-linux-x86_64`](https://github.com/wdickin/LasGuide-releases/releases/download/v1.4.5/LasGuide-v1.4.5-linux-x86_64) |
+| Windows 10/11 (64-bit), installer (recommended) | [`LasGuide-Setup-x64.exe`](https://github.com/wdickin/LasGuide-releases/releases/latest/download/LasGuide-Setup-x64.exe) (versioned: `LasGuide-v1.4.9-Setup-x64.exe`) |
+| Windows 10/11 (64-bit), portable (no install) | [`LasGuide-windows-x64.zip`](https://github.com/wdickin/LasGuide-releases/releases/latest/download/LasGuide-windows-x64.zip) (versioned: `LasGuide-v1.4.9-windows-x64.zip`) |
+| Mac with Apple Silicon (M1, M2, M3, M4…) – 1.4.7 | [`LasGuide-macos-arm64.dmg`](https://github.com/wdickin/LasGuide-releases/releases/download/v1.4.7/LasGuide-macos-arm64.dmg) |
+| Mac with an Intel processor – 1.4.7 | [`LasGuide-macos-x86_64.dmg`](https://github.com/wdickin/LasGuide-releases/releases/download/v1.4.7/LasGuide-macos-x86_64.dmg) |
+| Linux x86_64 (Ubuntu 22.04+ / Debian 12+) – 1.4.7 | [`LasGuide-v1.4.7-linux-x86_64`](https://github.com/wdickin/LasGuide-releases/releases/download/v1.4.7/LasGuide-v1.4.7-linux-x86_64) |
 
 ## What it does
 
@@ -37,10 +43,10 @@ This repository only hosts the ready-to-run downloads. Get them from the [Releas
 
 ## First launch
 
-- **Windows (installer):** run `LasGuide-Setup-x64.exe` (or `LasGuide-v1.4.7-Setup-x64.exe`). By default it installs for your user only (no admin rights needed) and adds a Start-menu entry. Uninstall it from Apps & features. If the app is open, Setup closes it first.
+- **Windows (installer):** run `LasGuide-Setup-x64.exe` (or `LasGuide-v1.4.9-Setup-x64.exe`). By default it installs for your user only (no admin rights needed) and adds a Start-menu entry. Uninstall it from Apps & features. If the app is open, Setup closes it first.
 - **Windows (portable):** unzip `LasGuide-windows-x64.zip` and run `LasGuide.exe` from a folder you can write to.
-- **macOS (1.4.5):** open the `.dmg` and drag `LasGuide.app` to Applications.
-- **Linux (1.4.5):** download `LasGuide-v1.4.5-linux-x86_64`, mark it executable (`chmod +x`), and run it.
+- **macOS (1.4.7):** open the `.dmg` and drag `LasGuide.app` to Applications.
+- **Linux (1.4.7):** download `LasGuide-v1.4.7-linux-x86_64`, mark it executable (`chmod +x`), and run it.
 
 On first Start the app downloads the matching pullauta program automatically.
 
