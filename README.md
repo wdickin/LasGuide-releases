@@ -18,8 +18,8 @@ This repository only hosts the ready-to-run downloads. Get them from the [Releas
 
 | Your computer | Download |
 |---|---|
-| Windows 10/11 (64-bit), installer (recommended) | [`LasGuide-Setup-x64.exe`](https://github.com/wdickin/LasGuide-releases/releases/latest/download/LasGuide-Setup-x64.exe) (versioned: `LasGuide-v1.5.0-Setup-x64.exe`) |
-| Windows 10/11 (64-bit), portable (no install) | [`LasGuide-windows-x64.zip`](https://github.com/wdickin/LasGuide-releases/releases/latest/download/LasGuide-windows-x64.zip) (versioned: `LasGuide-v1.5.0-windows-x64.zip`) |
+| Windows 10/11 (64-bit), installer (recommended) | [`LasGuide-Setup-x64.exe`](https://github.com/wdickin/LasGuide-releases/releases/latest/download/LasGuide-Setup-x64.exe) |
+| Windows 10/11 (64-bit), portable (no install) | [`LasGuide-windows-x64.zip`](https://github.com/wdickin/LasGuide-releases/releases/latest/download/LasGuide-windows-x64.zip) |
 | Mac with Apple Silicon (M1, M2, M3, M4…) | [`LasGuide-macos-arm64.dmg`](https://github.com/wdickin/LasGuide-releases/releases/latest/download/LasGuide-macos-arm64.dmg) |
 | Mac with an Intel processor | [`LasGuide-macos-x86_64.dmg`](https://github.com/wdickin/LasGuide-releases/releases/latest/download/LasGuide-macos-x86_64.dmg) |
 | Linux x86_64 (Ubuntu 22.04+ / Debian 12+) | [`LasGuide-linux-x86_64`](https://github.com/wdickin/LasGuide-releases/releases/latest/download/LasGuide-linux-x86_64) |
@@ -45,7 +45,7 @@ This repository only hosts the ready-to-run downloads. Get them from the [Releas
 
 ## First launch
 
-- **Windows (installer):** run `LasGuide-Setup-x64.exe` (or `LasGuide-v1.5.0-Setup-x64.exe`). By default it installs for your user only (no admin rights needed) and adds a Start-menu entry. Uninstall it from Apps & features. If the app is open, Setup closes it first.
+- **Windows (installer):** run `LasGuide-Setup-x64.exe`. By default it installs for your user only (no admin rights needed) and adds a Start-menu entry. Uninstall it from Apps & features. If the app is open, Setup closes it first.
 - **Windows (portable):** unzip `LasGuide-windows-x64.zip` and run `LasGuide.exe` from a folder you can write to.
 - **macOS:** open the `.dmg` and drag `LasGuide.app` to Applications.
 - **Linux:** download `LasGuide-linux-x86_64`, mark it executable (`chmod +x`), and run it.
